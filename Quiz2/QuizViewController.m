@@ -77,7 +77,6 @@
     //clear the answer field
     [self.lblAnswer setText:@"???"];
     
-    [_lblAnswer setText:@"blah"];
 
 }
 
