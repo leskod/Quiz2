@@ -10,4 +10,29 @@
 
 @interface QuizViewController : UIViewController
 
+{
+    //QUESTION:  WHY ARE THESE IN BRACES?
+    int currentQuestionIndex;
+
+    //the model objects
+    NSMutableArray *questions;
+    NSMutableArray *answers;
+    
+    
+    //QUESTION:  THIS IS THE BOOK SYNTAX, WHAT MAKES THESE DIFFERENT?
+    //QUESTION:  WHY ARE THESE IN BRACES IN THE BOOK?
+    //the view objects - don't worry about iboutlet
+    //IBOutlet UILabel *questionField;
+    //IBOutlet UILabel *answerField;
+}
+
+//QUESTION:  WHY AREN'T THESE IN BRACES?
+
+@property (weak, nonatomic) IBOutlet UILabel *lblQuestion;
+@property (weak, nonatomic) IBOutlet UILabel *lblAnswer;
+
+
+- (IBAction)showAnswer:(id)sender;
+- (IBAction)showQuestion:(id)sender;
+
 @end
