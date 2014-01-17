@@ -11,16 +11,14 @@
 @interface QuizViewController : UIViewController
 
 {
-    //QUESTION:  WHY ARE THESE IN BRACES?
+    
     int currentQuestionIndex;
 
     //the model objects
     NSMutableArray *questions;
     NSMutableArray *answers;
     
-    
-    //QUESTION:  THIS IS THE BOOK SYNTAX, WHAT MAKES THESE DIFFERENT?
-    //the view objects - don't worry about iboutlet
+        //the view objects - don't worry about iboutlet
     //IBOutlet UILabel *questionField;
     //IBOutlet UILabel *answerField;
 }
