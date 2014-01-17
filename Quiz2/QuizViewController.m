@@ -21,7 +21,6 @@
     
     
     //call the init implemented by the superclass
-    //QUESTION:  WHY DOESNT THIS WORK FROM THE BOOK?
     //self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
@@ -77,6 +76,8 @@
     
     //clear the answer field
     [self.lblAnswer setText:@"???"];
+    
+    [_lblAnswer setText:@"blah"];
 
 }
 
