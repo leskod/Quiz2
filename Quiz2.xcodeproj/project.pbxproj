@@ -461,6 +461,7 @@
 				01F780391888595B009BD32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01F7803A1888595B009BD32B /* Build configuration list for PBXNativeTarget "Quiz2Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				01F7803C1888595B009BD32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
